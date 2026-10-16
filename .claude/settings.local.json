@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(unzip -l hero.zip)",
+      "Bash(unzip -l mid.zip)",
+      "Bash(unzip -l skills.zip)",
+      "Bash(mkdir -p frames/hero frames/mid frames/skills)",
+      "Bash(unzip -oq hero.zip -d frames/hero)",
+      "Bash(unzip -oq mid.zip -d frames/mid)",
+      "Bash(unzip -oq skills.zip -d frames/skills)",
+      "Bash(npm -v)",
+      "Bash(npx --version)"
+    ]
+  }
+}
